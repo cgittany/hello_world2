@@ -13,8 +13,9 @@ group :production do
   gem 'pg'
 end
 
-
-
+gem 'actionmailer'
+gem 'activerecord'
+gem 'mysql'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
