@@ -53,15 +53,6 @@ HelloWorld2::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  Rideboard::Application.routes.draw do
-    resources :requests
 
-    get "info/about"
 
-    resources :rides
-
-    get "home/index"
-
-    root :to => "rides#index"
-  end
 end
